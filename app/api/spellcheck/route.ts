@@ -159,7 +159,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const selected: Provider = provider ?? "all";
+    const selected: Provider = provider ?? "daum";
 
     let daum: DaumResult[] = [];
     let pnu: PnuResult[] = [];

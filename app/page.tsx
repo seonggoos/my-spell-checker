@@ -18,7 +18,7 @@ type SpellResult =
 
 export default function Home() {
   const [text, setText] = React.useState("");
-  const [provider, setProvider] = React.useState<Provider>("all");
+  const [provider, setProvider] = React.useState<Provider>("daum");
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [results, setResults] = React.useState<SpellResult[]>([]);
